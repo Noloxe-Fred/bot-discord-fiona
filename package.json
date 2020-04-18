@@ -1,0 +1,17 @@
+{
+  "name": "un-bot-pour-les-regrouper-tous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "fs": "^0.0.1-security",
+    "node": "^13.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
