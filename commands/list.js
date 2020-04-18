@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
     games.forEach(game => {
         embed
             .addFields(
-                {name: game.name, value: message.guild.emojis.cache.get(game.emojiId), inline: true}
+                {name: game.name, value: message.guild.emojis.cache.find(emoji => emoji.name === 'game.name'), inline: true}
             )
     });
 
