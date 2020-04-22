@@ -1,7 +1,7 @@
 module.exports = [
-    {name: 'Overwatch', emojiId: '701101685556117515'},
-    {name: 'Minecraft', emojiId: '701101487375253556'},
-    {name: 'Warzone', emojiId: '701101685556117515'},
-    {name: 'Red-Dead-Redemption', emojiId: '701101685556117515'},
-    {name: 'Apéro', emojiId: '701102542809071737'},
+    {name: 'Overwatch', emojiId: '678315918492827668'},
+    {name: 'Minecraft', emojiId: '701099507705708604'},
+    {name: 'Warzone', emojiId: '701100782904410232'},
+    {name: 'Red-Dead-Redemption', emojiId: '702402243391127562'},
+    {name: 'Apéro', emojiId: '702401841723604993'},
 ];
