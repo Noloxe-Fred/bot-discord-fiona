@@ -4,4 +4,5 @@ module.exports = [
     {name: 'Warzone', emojiId: '701100782904410232'},
     {name: 'RedDeadRedemption', emojiId: '702402243391127562'},
     {name: 'Apero', emojiId: '702401841723604993'},
+    {name: 'SeaOfThieves', emojiId: '705502276441210971'},
 ];
