@@ -1,9 +1,7 @@
 exports.run = (client, message, args) => {    
-    // D'abord un random sur le type de nourriture 
-    const randomType = dessert[Math.floor(Math.random() * Math.floor(dessert.length))]
+    const randomType = dessert[Math.floor(Math.random() * Math.floor(dessert.length))];
     
-    // Et un autre random sur un élément de nourriture
-    const randomElement = randomType.elements[Math.floor(Math.random() * Math.floor(randomType.elements.length))]
+    const randomElement = randomType.elements[Math.floor(Math.random() * Math.floor(randomType.elements.length))];
 
     message.channel.send(`Résultat : ${randomType.emoji} **${randomType.name} => ${randomElement}**`);
 }
