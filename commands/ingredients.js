@@ -8,9 +8,8 @@ exports.run = (client, message, args) => {
     ingredients.forEach(ingredient => {
         embed
             .addFields(
-                {name: ingredient.emoji + " " + ingredient.name, value: ingredient.type}
+                { name: ingredient.emoji + " " + ingredient.type + " :", value: ingredient.element },
             )
-            
     });
 
     message.channel.send(embed)

@@ -58,35 +58,3 @@ module.exports = [
         },
     },
 ];
-
-
-module.exports = [
-    {
-        emoji: type.LEGUME.emoji,
-        type: type.LEGUME.name,
-        element: type.LEGUME.elements
-    },
-
-    {
-        emoji: type.CHARCUTERIE.emoji,
-        type: type.CHARCUTERIE.name,
-        element: type.CHARCUTERIE.elements
-    },
-
-    {
-        emoji: type.POISSON.emoji,
-        type: type.POISSON.name,
-        element: type.POISSON.elements
-    },
-
-    {
-        emoji: type.FRUIT.emoji,
-        type: type.FRUIT.name,
-        element: type.FRUIT.elements
-    },
-    {
-        emoji: type.EPICE.emoji,
-        type: type.EPICE.name,
-        element: type.EPICE.elements
-    },
-];
