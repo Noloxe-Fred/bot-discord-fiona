@@ -17,15 +17,22 @@ exports.help = {
 const viande = [
     {
         name: "Boeuf",
-        emoji: ":cut_of_meat:",
+        emoji: ":ox:",
         elements: [
+            "Basse-côte",
             "Entrecôte",
             "Côte",
             "Faux-filet",
+            "Picanha (Aiguillette de rumsteak)",
             "Rosbif",
-            "Bavette / Onglet",
-            "Gîte / Paleron",
+            "Rumsteak",
+            "Bavette / Arraignée",
+            "ongler / Hampe",
+            "Jarret",
+            "Paleron",
+            "Macreuse / Jumeau",
             "Joue",
+            "collier",
         ]
     },
     {
@@ -38,17 +45,23 @@ const viande = [
             "Côtes découvertes / premières",
             "Côtes filet",
             "Souris",
-            "Roubignolles"
+            "Poitrine",
+            "Roubignolles",
         ]
     },
     {
         name: "Veau",
-        emoji: ":beef:",
+        emoji: ":cow2:",
         elements: [
-            "Rôti",
+            "Rôti (Noix, noix patissière)",
             "Côtes", 
-            "Collier / Poitrine",
-            "Filet / Grenadin"
+            "Poitrine",
+            "Tendron",
+            "Flanchet",
+            "Epaule",
+            "Jarret",
+            "Quasi (Rumsteak)",
+            "Filet / Grenadin",
         ]
     },
     {
@@ -62,19 +75,12 @@ const viande = [
             "Anchois",
             "Moule",
             "Crevette",
-            "Crabe"
-        ]
-    },
-    {
-        name: "Charcuterie",
-        emoji: ":bacon:",
-        elements: [
-            "Saucisson",
-            "Pâté",
-            "Jambon Madrange",
-            "Bacon",
-            "Pancetta",
-            "Saucisse",
+            "Crabe",
+            "Eglefin",
+            "Raie",
+            "Rouget",
+            "Hommard",
+            "Cabillaud",
         ]
     },
 ];
