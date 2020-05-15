@@ -11,7 +11,6 @@ const { MessageEmbed } = require('discord.js');
 
 exports.run = (client, message, args) => {
 
-    
     // Je récupère une recette au hasard
     const randomRecipes = recipes[Math.floor(Math.random() * Math.floor(recipes.length))];
 
@@ -24,12 +23,9 @@ exports.run = (client, message, args) => {
             { name: randomRecipes.name, value: randomRecipes.ingredients }
         )
 
-        const newRecipe = recipes.push({name: args})
-        console.log(recipes)
-        
-        // const argsUser = args.join(' ').split(','); // Retourne le nouveau tableau args
-        // console.log(a.push(argsUser))
         message.channel.send(embed)
+
+        console.log(recipes)
 };
 
 exports.help = {
