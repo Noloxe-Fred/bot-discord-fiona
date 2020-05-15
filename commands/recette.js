@@ -22,6 +22,7 @@ exports.run = (client, message, args) => {
         .addFields(
             { name: randomRecipes.name, value: randomRecipes.ingredients }
         )
+        .setImage(randomRecipes.imageURL)
 
         message.channel.send(embed)
 
