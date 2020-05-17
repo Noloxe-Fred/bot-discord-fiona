@@ -5,9 +5,10 @@ exports.run = (client, message, args) => {
     const arguments = args.join(' ').split(',')
     let name = arguments[0];
     let image = arguments[1];
-    let ingredients = arguments.slice(2);
+    let category = arguments[2];
+    let ingredients = arguments.slice(3);
     
-    args = {name: name, imageURL: image, ingredients: ingredients};
+    args = {name: name, imageURL: image, category: category, ingredients: ingredients};
 
     recipes.push(args)
 

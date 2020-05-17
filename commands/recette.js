@@ -18,13 +18,12 @@ exports.run = (client, message, args) => {
     embed
         .setThumbnail("https://cdn.pixabay.com/photo/2017/06/13/22/31/logo-2400338_960_720.png") // ===> Ajoute une petit image / logo
         .setTitle(`Recettes au hasard : `)
-        .setDescription('Commande qui te permet d`avoir une recette au hasard. Mais tu peux en rajouter si tu le souhaite aussi.')
         .addFields(
             { name: randomRecipes.name, value: randomRecipes.ingredients }
         )
-        .setImage(randomRecipes.imageURL)
+        .setImage(randomRecipes.imageURL);
 
-        message.channel.send(embed)
+        message.channel.send(embed);
 
         console.log(recipes)
 };
@@ -32,3 +31,7 @@ exports.run = (client, message, args) => {
 exports.help = {
     name: 'recette'
 };
+
+/*
+TODO 2 : Relié la commande à une base de données (partir sur la bdd de wordpress)
+*/
