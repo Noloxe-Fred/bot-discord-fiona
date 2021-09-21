@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0ddf9a-18b1-4c33-9a19-648cd27865a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/gamesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/choixpeau.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamesList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +28,13 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,12 +42,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,11 +69,28 @@
       <workItem from="1586795206519" duration="2642000" />
       <workItem from="1587216521925" duration="745000" />
       <workItem from="1587225576952" duration="477000" />
+      <workItem from="1632126203851" duration="2508000" />
+      <workItem from="1632156799983" duration="1664000" />
+      <workItem from="1632169113095" duration="1013000" />
+      <workItem from="1632170892139" duration="211000" />
+      <workItem from="1632243637023" duration="1529000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586795952867">
