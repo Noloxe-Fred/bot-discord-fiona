@@ -5,11 +5,14 @@ const fs = require('fs');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 client.commands = new Collection();
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+const commandDirs = fs.readdirSync('./commands');
 
-for (const file of commandFiles) {
-    const command = require(`./commands/${file}`);
-    client.commands.set(command.data.name, command);
+for (const dir of commandDirs) {
+    const commandFiles = fs.readdirSync(`./commands/${dir}`).filter(file => file.endsWith('.js'));
+    for (const file of commandFiles) {
+        const command = require(`./commands/${dir}/${file}`);
+        client.commands.set(command.data.name, command);
+    }
 }
 
 fs.readdir('./events/', (err, files) => {
