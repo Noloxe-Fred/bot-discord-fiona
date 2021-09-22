@@ -13,10 +13,10 @@ module.exports = {
                 console.log(err);
             } else {
                 obj = JSON.parse(data);
-                if (obj.lists.find((list) => list.name === listName)) {
+                if (obj.find((list) => list.name === listName)) {
                     return interaction.reply(`Cette liste existe déjà`);
                 }
-                obj.lists.push({ name: listName, list: [] }); //add some data
+                obj.push({ name: listName, list: [] }); //add some data
                 json = JSON.stringify(obj);
                 fs.writeFile(__dirname + '/../../datas/lists.json', json, 'utf8', () => {
                     return interaction.reply(`Liste créée: ${listName}`);

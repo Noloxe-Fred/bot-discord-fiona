@@ -12,7 +12,7 @@ module.exports = {
                 } else {
                     obj = JSON.parse(data);
 
-                    const newLists = obj.lists.map((l) => {
+                    const newLists = obj.map((l) => {
                         if (l.name === listName) {
                             l.list.push(value)
                         }

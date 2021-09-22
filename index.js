@@ -59,7 +59,7 @@ client.on('interactionCreate', async interaction => {
     const command = client.selectCommands.get(interaction.customId);
 
     if (!command) return;
-
+    console.log('in index', interaction)
     try {
         await command.data.execute(interaction);
     } catch (error) {
