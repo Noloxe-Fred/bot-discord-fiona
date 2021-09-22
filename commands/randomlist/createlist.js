@@ -5,7 +5,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('createlist')
         .setDescription('Créer une liste')
-        .addStringOption(option => option.setName('nom').setDescription('Entrer le nom de la liste')),
+        .addStringOption(option => option.setName('nom').setDescription('Entrer le nom de la liste').setRequired(true)),
     async execute(interaction) {
         const listName = interaction.options.getString('nom');
         fs.readFile(__dirname + '/../../datas/lists.json', 'utf8', function readFileCallback(err, data){

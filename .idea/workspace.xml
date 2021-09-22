@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e0ddf9a-18b1-4c33-9a19-648cd27865a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2e0ddf9a-18b1-4c33-9a19-648cd27865a0" name="Default Changelist" comment="add createList command">
+      <change afterPath="$PROJECT_DIR$/commands/randomlist/additem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selectCommands/randomlist/additem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/choixpeau.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamesList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/randomlist/createlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/randomlist/createlist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +17,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a5JOTEn0wIy9v7Q7q1KWLK059n" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +41,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datas" />
+      <recent name="$PROJECT_DIR$/commands/randomlist" />
+      <recent name="$PROJECT_DIR$/commands/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -74,7 +72,16 @@
       <workItem from="1632169113095" duration="1013000" />
       <workItem from="1632170892139" duration="211000" />
       <workItem from="1632243637023" duration="1529000" />
+      <workItem from="1632340174354" duration="2280000" />
     </task>
+    <task id="LOCAL-00001" summary="add createList command">
+      <created>1632327377083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632327377083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,18 +99,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="360" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586795952867">
-      <screen x="0" y="23" width="1792" height="1029" />
-    </state>
-    <state x="360" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/-86.-1057.1920.1057/0.23.1792.1029@0.23.1792.1029" timestamp="1586795952867" />
-    <state x="611" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586786324296">
-      <screen x="0" y="23" width="1792" height="1029" />
-    </state>
-    <state x="611" y="337" key="#com.intellij.fileTypes.FileTypeChooser/-86.-1057.1920.1057/0.23.1792.1029@0.23.1792.1029" timestamp="1586786324296" />
-    <state x="561" y="249" key="run.anything.popup" timestamp="1586102469527">
-      <screen x="0" y="23" width="1792" height="1029" />
-    </state>
-    <state x="561" y="249" key="run.anything.popup/-73.-1057.1920.1057/-1920.23.1920.1057/0.23.1792.1029@0.23.1792.1029" timestamp="1586102469527" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add createList command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add createList command" />
   </component>
 </project>
