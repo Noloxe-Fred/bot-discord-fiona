@@ -35,7 +35,6 @@ fs.readdir('./events/', (err, files) => {
         const evtName = file.split('.')[0];
 
         client.on(evtName, event.bind(null, client));
-        console.log(client)
     });
 });
 
@@ -59,7 +58,7 @@ client.on('interactionCreate', async interaction => {
     const command = client.selectCommands.get(interaction.customId);
 
     if (!command) return;
-    console.log('in index', interaction)
+
     try {
         await command.data.execute(interaction);
     } catch (error) {

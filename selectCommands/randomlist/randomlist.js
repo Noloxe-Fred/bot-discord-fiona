@@ -3,21 +3,20 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
     data: {
-        name: 'displaylist',
+        name: 'randomlist',
         execute: async (interaction) => {
             const listName = interaction.values[0];
             const embed = new MessageEmbed()
-                .setDescription(listName);
+                .setTitle('Et vous allez regarder:');
 
             fs.readFile(__dirname + '/../../datas/lists.json', 'utf8', async (err, data) => {
                 if (err){
                     console.log(err);
                 } else {
                     obj = JSON.parse(data);
-
                     const selectedList = obj.find((list) => list.name === listName);
-                    selectedList.list.map((item) => embed.addField(item, '-'));
-
+                    const randomNumber = Math.floor(Math.random() * (selectedList.list.length));
+                    embed.setDescription(selectedList.list[randomNumber]);
                     interaction.reply({ embeds: [ embed ] })
                 }});
         }
