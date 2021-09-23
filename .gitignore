@@ -3,3 +3,5 @@ config.js
 config.json
 /.idea
 .idea
+workspace.xml
+/datas
