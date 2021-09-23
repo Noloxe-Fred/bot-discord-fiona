@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const dotenv = require('dotenv');
+require('dotenv').config();
 
 const { CLIENT_ID, GUILD_ID, TOKEN } = process.env;
 
@@ -21,7 +21,7 @@ const rest = new REST({ version: '9' }).setToken(TOKEN);
 (async () => {
     try {
         await rest.put(
-            Routes.applicationGuildCommands(CIENT_ID, GUILD_ID),
+            Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID),
             { body: commands },
         );
 

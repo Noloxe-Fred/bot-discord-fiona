@@ -1,9 +1,8 @@
 const { Client, Collection, Intents } = require('discord.js');
-const dotenv = require('dotenv');
+require('dotenv').config();
 const fs = require('fs');
 
-const { TOKEN } = process.env;
-
+const token = process.env.TOKEN;
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
@@ -70,5 +69,5 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-client.login(TOKEN);
+client.login(token);
 client.on("ready", () => {console.log('Bot démarré')});
